@@ -26,7 +26,7 @@ public class DisplayEmployeeController {
 	}
 */
 	
-	@RequestMapping("/viewEmployee/{id}")
+	@RequestMapping(value= "/viewEmployee/{id}" , headers = "Accept=application/json")
 	@ResponseBody
 	public Employee viewAllItems(@PathVariable String id) {
 		System.out.println("KIRAN --viewAllItems()");
