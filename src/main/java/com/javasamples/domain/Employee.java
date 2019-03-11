@@ -1,5 +1,10 @@
 package com.javasamples.domain;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
+
+@SuppressWarnings("restriction")
+@XmlRootElement
 public class Employee {
 	
 	private String empId;
